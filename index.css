@@ -1,7 +1,7 @@
 body {
-    background-color: #001C55;
     color: #EEF0F2;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to bottom,#2274A5,#001C55)
 }
 header {
     display: flex;
@@ -10,14 +10,11 @@ header {
     padding: 20px;
 }
 h1 {
-    color: #EEF0F2;
-    font-size: 16px;
     display: flex;
     align-items: center;
 }
 a {
     text-decoration: none;
-    color: #EEF0F2;
     margin: 15px;
     font-size: 20px;
 }
@@ -33,7 +30,6 @@ hr{
 h2 {
     display: flex;
     justify-content: center;
-    /* color: #2274A5; */
 }
 #aboutMe p {
     width: 50vw;
@@ -44,8 +40,8 @@ h2 {
 }
 
 .skills-img {
-    height: 100px;
-    width: 100px
+    height: 150px;
+    width: 150px
 }
 
 #skillsContent {
@@ -73,4 +69,11 @@ h2 {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+p {
+    font-size: 20px;
+}
+#memoji {
+    display: flex;
+    justify-content: center;
 }
