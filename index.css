@@ -1,5 +1,7 @@
 body {
     background-color: #001C55;
+    color: #EEF0F2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header {
     display: flex;
@@ -9,7 +11,6 @@ header {
 }
 h1 {
     color: #EEF0F2;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -22,4 +23,54 @@ a {
 }
 a:hover {
     color: #C6C7C4;
+}
+hr{
+    width: 62.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #EEF0F2;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    /* color: #2274A5; */
+}
+#aboutMe p {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-img {
+    height: 100px;
+    width: 100px
+}
+
+#skillsContent {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+#skills-text {
+    display: flex;
+    justify-content:center;
+}
+#projectsContent{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#philosophies p{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
