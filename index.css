@@ -14,6 +14,7 @@ h1 {
     align-items: center;
 }
 a {
+    color: #EEF0F2;
     text-decoration: none;
     margin: 15px;
     font-size: 20px;
@@ -41,7 +42,7 @@ h2 {
 
 .skills-img {
     height: 150px;
-    width: 150px
+    width: 150px;
 }
 
 #skillsContent {
